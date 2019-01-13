@@ -1,5 +1,7 @@
 # gatsby-starter-gcn
 
+locally forked by [gatsby-starter-gcn](https://github.com/ryanwiemer/gatsby-starter-gcn)
+
 A starter template to build amazing static websites with Gatsby, Contentful and Netlify. Inspired by [gatsby-contentful-starter](https://github.com/contentful-userland/gatsby-contentful-starter).
 
 For Gatsby `v1` please use the [v1 branch](https://github.com/ryanwiemer/gatsby-starter-gcn/tree/v1)
