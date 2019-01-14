@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-gcn",
-  "description": "A starter template to build amazing static websites with Gatsby, Contentful and Netlify",
+  "name": "gatsby-contentful",
+  "description": "verssae's blog",
   "version": "2.0.4",
-  "repository": "https://github.com/ryanwiemer/gatsby-starter-gcn",
+  "repository": "https://github.com/Verssae/gatsby-contentful",
   "author": "Ryan Wiemer <ryan@ryanwiemer.com>",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.0",
