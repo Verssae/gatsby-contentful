@@ -5,6 +5,7 @@
   "repository": "https://github.com/Verssae/gatsby-contentful",
   "author": "Ryan Wiemer <ryan@ryanwiemer.com>",
   "dependencies": {
+    "@gatsby-contrib/gatsby-remark-link-youtube": "^0.1.2",
     "babel-plugin-styled-components": "^1.10.0",
     "chalk": "^2.4.1",
     "contentful-import": "^7.4.3",
@@ -22,7 +23,6 @@
     "gatsby-plugin-sitemap": "^2.0.3",
     "gatsby-plugin-styled-components": "^3.0.4",
     "gatsby-remark-autolink-headers": "^2.0.12",
-    "gatsby-remark-embed-video": "^1.7.0",
     "gatsby-remark-images-contentful": "^2.0.5",
     "gatsby-remark-prismjs": "^3.1.4",
     "gatsby-source-contentful": "^2.0.20",

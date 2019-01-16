@@ -6,6 +6,7 @@ import Layout from '../components/Layout'
 import Hero from '../components/Hero'
 import Container from '../components/Container'
 import PageBody from '../components/PageBody'
+import Youtube from '../components/Youtube'
 import TagList from '../components/TagList'
 import PostLinks from '../components/PostLinks'
 import PostDate from '../components/PostDate'
@@ -19,6 +20,7 @@ const PostTemplate = ({ data, pageContext }) => {
     body,
     publishDate,
     tags,
+    url,
   } = data.contentfulPost
   const postNode = data.contentfulPost
 
@@ -38,7 +40,9 @@ const PostTemplate = ({ data, pageContext }) => {
         {tags && <TagList tags={tags} />}
         <PostDate date={publishDate} />
         <PageBody body={body} />
+        {url !== null ? <Youtube url={url} /> : ''}
       </Container>
+
       <PostLinks previous={previous} next={next} />
     </Layout>
   )
@@ -78,6 +82,7 @@ export const query = graphql`
           excerpt(pruneLength: 320)
         }
       }
+      url
     }
   }
 `
