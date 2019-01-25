@@ -40,7 +40,6 @@ const PostTemplate = ({ data, pageContext }) => {
         {tags && <TagList tags={tags} />}
         <PostDate date={publishDate} />
         <PageBody body={body} />
-        {url !== null ? <Youtube url={url} /> : ''}
       </Container>
 
       <PostLinks previous={previous} next={next} />
